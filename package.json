@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@redocly/cli": "^2.30.4",
+    "postman-to-openapi": "^1.7.3"
+  }
+}

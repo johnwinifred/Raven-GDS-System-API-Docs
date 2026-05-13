@@ -1,0 +1,49 @@
+apis:
+  main:
+    root: ./api/collection.yml
+
+
+extends:
+    - recommended
+
+rules:
+
+  # -------------------
+  # Security
+  # -------------------
+
+  security-defined: error
+
+  # -------------------
+  # Documentation Quality
+  # -------------------
+
+  operation-summary: warn
+  operation-description: warn
+  operation-operationId: warn
+
+  # -------------------
+  # API Responses
+  # -------------------
+
+  operation-4xx-response: warn
+  operation-2xx-response: error
+
+  # -------------------
+  # Schema Validation
+  # -------------------
+
+  no-invalid-schema-examples: error
+  no-unresolved-refs: error
+
+  # -------------------
+  # Naming Standards
+  # -------------------
+
+  operation-operationId-unique: error
+
+  # -------------------
+  # Cleanup Rules
+  # -------------------
+
+  no-unused-components: warn
