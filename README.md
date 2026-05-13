@@ -6,15 +6,24 @@ This repository contains the OpenAPI specification files for the Raven GDS Booki
 
 ## About Raven
 
-Raven is a Global Distribution System (GDS)-style API built for learning, testing, and integration simulation in travel and booking system architectures.
+Raven is a simulated Global Distribution System (GDS) API designed for learning, documentation practice, and OTA-style workflow simulation.
 
-It is designed to mimic real-world OTA and booking system workflows, providing a unified interface for managing travel inventory, bookings, and reservations across multiple simulated providers.
+It models how real-world travel booking systems are structured, including common operations such as search, booking, and reservation management. However, it does not connect to real travel suppliers or live inventory systems.
 
-Raven is intended for developer experimentation, prototyping, and documentation engineering practice, and is not connected to any live travel or GDS infrastructure.
+Raven is intended as a sandbox project for API documentation engineering, system design understanding, and prototyping developer experiences for travel platforms.
+
+## Purpose
+
+This project is built for:
+
+- Practicing API documentation using OpenAPI specifications
+- Simulating OTA (Online Travel Agency) booking workflows
+- Demonstrating API design and structure for portfolio purposes
+- Testing documentation tooling such as Redocly and Swagger UI
 
 ## Documentation
 
-Full API documentation and integration guides are available on the official Raven Developer Portal.
+Full API documentation is available on the official Raven Developer Portal.
 
 ## License
 
